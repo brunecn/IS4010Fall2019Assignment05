@@ -25,6 +25,13 @@ public class FootballFun {
             System.out.println("At least one test failed");
         }
     }
+    
+    /***
+     * Takes a football score and returns the name that corresponds it
+     * @param score The football score
+     * @return Return string
+     */
+    
     public static String translateScore (int score) {
         String scoreDisc = "";
 
